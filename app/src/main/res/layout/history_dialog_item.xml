@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <widget.ListViewForScrollView
+        android:id="@+id/search_result"
+        android:background="@drawable/histroy_list_bg"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/clear_all_records_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/delete_history"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="清除历史记录"/>
+
+</LinearLayout>
